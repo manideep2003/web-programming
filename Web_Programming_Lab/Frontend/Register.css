@@ -1,0 +1,127 @@
+*{
+    border:0;
+    margin:10px;
+    background: url('./b3.jpg') no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+    font-family: 'Trebuchet MS';
+}
+
+.Register_log form{
+    width: 340px;
+    padding:40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.Register_log form h1{
+    color: rgb(10, 1, 1);
+    text-transform: uppercase;
+    font-weight: 500;
+    background:azure;
+    border-radius: 10px;
+    border:0;
+    margin-bottom: 40px;
+    padding: 15px 10px;
+}
+
+.Register_log form input[type="text"],.Register_log form input[type="password"]{
+    border:0;
+    border-radius: 25px;
+    background:none;
+    display:block;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #e7d40c;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    transition: 0.25s;
+}
+
+.Register_log form input[type="text"]:focus,.Register_log form input[type="password"]:focus{
+    width: 280px;
+    border-color: #ef5f06;
+}
+
+.Register_log form input[type="email"]{
+    border:0;
+    border-radius: 25px;
+    background: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #e7d40c;
+    padding: 14px 10px;
+    width:200px;
+    outline:none;
+    color: azure;
+    transition: 0.25s;
+}
+
+.Register_log form input[type="email"]:focus{
+    width:280px;
+    border-color: #ef5f06;
+}
+
+.Register_log form input[type = "submit"]{
+    border:0;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #7a0392;
+    padding:14px 40px;
+    width:200px;
+    outline:none;
+    color:white;
+    transition: 0.25s;
+}
+
+.Register_log form input[type="submit"]:hover{
+    background: #0500a4;
+}
+
+.Register_log p{
+     font-size: 14px;
+     display: inline-block;
+     color: #d0f01a;
+     padding: 5px 20px;
+
+}
+
+.Register_log form p{
+    background: rgb(10, 1, 1);
+    border: 0;
+    border-radius: 5px;
+    top: 50px;
+    left:50px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Register_log form p a{
+    background: rgb(10, 1, 1);
+    font-size: 18px;
+    color:#05dc08b7;
+
+}

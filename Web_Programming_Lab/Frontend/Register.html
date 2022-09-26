@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Register.css">
+        <script src="register.js"></script>
+        <title>Registration</title>
+    </head>
+<body>
+    <div class="Register_log">
+        <form class="Register_log" action="Register.html" method="post" onsubmit="return myfun()">
+            <h1>Veltech</h1> 
+            <input type="text" name="username" required placeholder="Enter a user name!">
+            <input type="email" name="email" required placeholder="Enter your email!">
+            <input type="password" name="password" required id="password" placeholder="Enter your password!">
+            <input type="password" name="cpassword" required id="confirmPassword" placeholder="Confirm your password!">
+            <p id="message"></p>
+            <input type="submit" name="submit" onclick="validatePassword()" value="Register" >
+            <p>Already have an account? <a href="Login.html">Login</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
